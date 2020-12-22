@@ -14,9 +14,9 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 70px;
     background-color: #e3e7ec;
-    -webkit-box-shadow: 0px 9px 11px -6px rgba(0,0,0,0.76);
-    -moz-box-shadow: 0px 9px 11px -6px rgba(0,0,0,0.76);
-    box-shadow: 0px 9px 11px -6px rgba(0,0,0,0.76);
+    -webkit-box-shadow: 0px -2px 20px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -2px 20px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px -2px 20px 3px rgba(0,0,0,0.75);
 }
 
 .a-2 {
@@ -31,7 +31,8 @@ body {
 }
 
 .a-2:hover {
-    color: brown;
+    color: rgb(180, 0, 252);
+    text-decoration: underline rgb(180, 0, 252);
 
 }
 
@@ -55,5 +56,4 @@ body {
     grid-row: 1/2;
     grid-column: 2/3;
     place-self: center center;
-    padding: 100px 0;
 }
